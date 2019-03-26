@@ -11,19 +11,19 @@ $ npm run start
 #### User List
 ```sh
 # Get Method
-https://localhost:3000/users
+http://localhost:3000/users
 ```
 
 #### User By Id
 ```sh
 # Get Method
-https://localhost:3000/users/{id}
+http://localhost:3000/users/{id}
 ```
 
 #### Create User
 ```sh
 # Post Method
-https://localhost:3000/users/create
+http://localhost:3000/users/create
 # req body
 {
         "email": "name@mail.com",
@@ -35,7 +35,7 @@ https://localhost:3000/users/create
 #### Update User
 ```sh
 # Post Method
-https://localhost:3000/users/update
+http://localhost:3000/users/update
 # req body
 {
         "id": 1,
